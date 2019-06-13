@@ -1,0 +1,2 @@
+# this will be a script that is called on to download a playlist
+# there will need to be a batch download, then upload to cloud and delete locally, then next batch type of progress

@@ -6,6 +6,8 @@ import re
 import csv
 
 
+key=API_KEY('xAIzaSyBon_xxNw-xybyh7gYwguhKTkfVVM4e7CI')
+
 allsongs = []
 youtubebaseurl = requests.get('https://www.youtube.com/playlist?list=PL2BBFi7UvppsE_8WDMYRa9zFoh2LlET3Z')
 youtubebs = BeautifulSoup(youtubebaseurl.text, 'lxml')
@@ -21,3 +23,5 @@ for song in songtiles:
 
 print(allsongs)
 print(youtubebs)
+
+# API stuff
